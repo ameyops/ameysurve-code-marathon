@@ -1,0 +1,73 @@
+[
+    {
+      "first_name": "Magnus",
+      "last_name": "Carlsen",
+      "country": "Norway",
+      "current_world_ranking": 1,
+      "total_matches_played": 100
+    },
+    {
+      "first_name": "Fabiano",
+      "last_name": "Caruana",
+      "country": "USA",
+      "current_world_ranking": 2,
+      "total_matches_played": 95
+    },
+    {
+      "first_name": "Ding",
+      "last_name": "Liren",
+      "country": "China",
+      "current_world_ranking": 3,
+      "total_matches_played": 90
+    },
+    {
+      "first_name": "Ian",
+      "last_name": "Nepomniachtchi",
+      "country": "Russia",
+      "current_world_ranking": 4,
+      "total_matches_played": 85
+    },
+    {
+      "first_name": "Wesley",
+      "last_name": "So",
+      "country": "USA",
+      "current_world_ranking": 5,
+      "total_matches_played": 80
+    },
+    {
+      "first_name": "Anish",
+      "last_name": "Giri",
+      "country": "Netherlands",
+      "current_world_ranking": 6,
+      "total_matches_played": 78
+    },
+    {
+      "first_name": "Hikaru",
+      "last_name": "Nakamura",
+      "country": "USA",
+      "current_world_ranking": 7,
+      "total_matches_played": 75
+    },
+    {
+      "first_name": "Viswanathan",
+      "last_name": "Anand",
+      "country": "India",
+      "current_world_ranking": 8,
+      "total_matches_played": 120
+    },
+    {
+      "first_name": "Teimour",
+      "last_name": "Radjabov",
+      "country": "Azerbaijan",
+      "current_world_ranking": 9,
+      "total_matches_played": 70
+    },
+    {
+      "first_name": "Levon",
+      "last_name": "Aronian",
+      "country": "Armenia",
+      "current_world_ranking": 10,
+      "total_matches_played": 72
+    }
+  ]
+  
