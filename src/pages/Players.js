@@ -1,8 +1,14 @@
 import React from 'react';
-import data from '../jsondata/player.json';
-import './player.css'; 
+ 
+import { useApi } from '../api/api';
 
 export const Players = () => {
+  const { data, loading, error } = useApi('http://localhost:5150/api/Players/above-average-wins');
+
+  // Handle loading and error states
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error.message}</div>;
+
   return (
     <div className="container">
       {data.map(player => (
@@ -11,12 +17,12 @@ export const Players = () => {
             {player.first_name} {player.last_name}
           </div>
           <div className="details">
-            {player.country} Rank {player.current_world_ranking}  Matches played: {player.total_matches_played}
+            Wins: {player.matches_win} | Win Percentage: {player.win_percentage}% | Matches Played: {player.total_matches_played}
           </div>
         </div>
       ))}
     </div>
   );
-}
+};
 
 export default Players;

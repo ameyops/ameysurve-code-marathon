@@ -16,7 +16,7 @@ export default function MatchForm() {
         setMatchLevel('');
         setWinnerId('');
     }
-
+   console.log(player1Id,player2Id,matchDate,matchLevel,winnerId)
     return (
         <div className="form-container">
             <form onSubmit={handleSubmit}>
